@@ -1,0 +1,248 @@
+body{
+    position: absolute;
+    background: -webkit-linear-gradient(149deg, #f4ed99, #c546f6
+    );
+}
+.continar{
+    position: relative;
+    top: 28vh;
+    left: 15vh;
+}
+.head{
+    position: relative;
+    width: 79vh;
+    height: 80vh;
+    left: 50vh;
+    background-color: #f2b9bd;
+    border: black solid 4px;
+    border-radius: 28vh 39vh 0vh 0vh;
+    border-left-width:0 ;
+}
+.head2{
+    height: 58vh;
+    border-radius: 20vh 0vh 0vh 0vh;
+    width: 50vh;
+    left: -23vh;
+    top: 21.3vh;
+    z-index: -2;
+    border-left-width:5px ;
+}
+.face{
+    position: relative;
+    bottom: 15vh;
+}
+.eye{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50vh;
+    background-color: white;
+    border:black solid 4px;
+    position: relative;
+    bottom: 52vh;
+    left: 60vh;
+}
+.eye2{
+    bottom: 73vh;
+    left: 85vh;
+}
+.eye_black{
+    width: 5vh;
+    height: 5vh;
+    background-color: black;
+    border-radius: 50vh;
+    position: relative;
+    top: 7vh;
+    left: 7.5vh;
+}
+.nose{
+    width: 6vh;
+    height: 2vh;
+    background-color: #ec7674;
+    position: relative;
+    bottom: 76vh;
+    border: black solid 4px;
+    border-radius: 3vh;
+    left: 77vh;
+}
+.line_nose{
+    position: relative;
+    bottom: 76vh;
+    width: 25vh;
+    height: 100px;
+    border: solid 4px #000;
+    border-color: #000 #d3212100 transparent transparent;
+    border-radius: 54%/50px 100px 0 0;
+    transform: rotate(275deg);
+    left: 70vh;
+}
+.Mouth{
+    left: 45vh;
+    width: 405px;
+    height: 100px;
+    border: solid 5px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 50%/82px 100px 0 0;
+    position: relative;
+    bottom: 93vh;
+    transform: rotate(180deg); 
+    z-index: 2;
+}
+.cheeks{
+    transform: rotate(110deg);
+    width: 98px;
+    height: 57px;
+    border: solid 4px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 100%/120px 134px 0 0;
+    position: relative;
+    bottom: 106vh;
+    left: 38vh;
+}
+.cheeks2{
+    position: relative;
+    top: -63vh;
+    left: -23vh;
+    transform: rotate(145deg)
+}
+.teeth{
+    width: 20vh;
+    height: 12vh;
+    background-color: white;
+    border: black solid 4px;
+    position: relative;
+    bottom: 104.7vh;
+    left: 66vh;
+    border-radius: 67%/0px 0vh 12vh 10vh;
+    transform: rotate(2deg);
+    border-top-style: none
+}
+.chin{
+    width: 350px;
+    height: 100px;
+    border: solid 4px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 68%/100px 100px 0 0;
+    position: relative;
+    bottom: 114vh;
+    transform: rotate(180deg);
+    left: 48vh;
+}
+.chin2{
+    width: 60vh;
+    height: 10vh;
+    background-color: #f2b9bd;
+    border-radius: 68%/100px 100px 0 0;
+    position: relative;
+    top: -12vh;
+    border: black solid 4px;
+}
+.chin2{
+    left: -2vh;
+    width: 61vh;
+    height: 9vh;
+    background-color: #f2b9bd;
+    border-radius: 77%/100px 100px 0 0;
+    position: relative;
+    top: -12vh;
+    border: black solid 4px;
+    border-bottom-style: none;
+}
+.line{
+    z-index: -10;
+    transform: rotate(127deg);
+    width: 5px;
+    height: 30px;
+    background-color: black;
+    position: relative;
+    bottom: 167vh;
+    LEFT: 34vh;
+}
+.line>div:nth-child(1){
+    transform: rotate(-9deg);
+    top: 1vh;
+    left: 6vh
+}
+.line>div:nth-child(2){
+    transform: rotate(-20deg);
+    top: -5vh;
+    left: 12vh
+}
+.line4{
+    z-index: revert;
+    transform: rotate(86deg);
+    top: -162vh;
+    left: 130vh;
+    width: 5px;
+    position: relative;
+    height: 40px;
+    background-color: black;
+}
+.line5{
+    transform: rotate(86deg);
+    top: -163vh;
+    left: 130vh;
+}
+.line6{
+    transform: rotate(-85deg);
+    top: -164vh;
+    left: 130vh;
+}
+.eyelashes{
+    left: 62vh;
+    width: 4px;
+    height: 20px;
+    background-color: black;
+    position: relative;
+    bottom: 215vh;
+    transform: rotate(120deg);
+}
+.eyelashes1{
+    top: -216vh;
+    left: 60vh;
+}
+.eyelashes2{
+    top: -220vh;
+    left: 105vh;
+    transform: rotate(60deg);
+}
+.eyelashes3{
+    top: -221vh;
+    left: 106vh;
+    transform: rotate(60deg);
+}
+.brow{
+    left: 63vh;
+    bottom: 239vh;
+    position: relative;
+    width: 90px;
+    height: 100px;
+    border: solid 16px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+    transform: rotate(-11deg);
+}
+.brow2{
+    top: 1vh;
+    left: 20vh;
+    transform: rotate(15deg)
+}
+.Poetry{
+    transform: rotate(39deg);
+    left: 82vh;
+    border-radius: 17vh 27vh 0vh 0vh;
+    width: 40vh;
+    height: 41vh;
+    background-color: #f2b9bd;
+    position: relative;
+    bottom: 289vh;
+    border: black solid 4px;
+    z-index: -2;
+}
+.poetry2{
+    height: 53vh;
+    border-radius: 17vh 17vh 0vh 4vh;
+    transform: rotate(0deg);
+    top: -15vh;
+    left: 22vh;
+    width: 34vh;
+}
